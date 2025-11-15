@@ -1,0 +1,36 @@
+messenger/
+├── app.py
+├── auth.py
+├── message_handler.py
+├── media_handler.py
+├── database.py
+├── config.py
+├── admin_panel.py
+├── google_auth.py
+├── two_factor.py
+├── utils.py
+├── templates/
+│   ├── base.html
+│   ├── login.html
+│   ├── register.html
+│   ├── chat.html
+│   ├── profile.html
+│   ├── groups.html
+│   ├── admin.html
+│   ├── two_factor.html
+│   └── themes/
+│       ├── dark.html
+│       ├── light.html
+│       ├── blue.html
+│       └── green.html
+├── static/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── themes/
+│   ├── js/
+│   │   └── script.js
+│   └── uploads/
+│       ├── avatars/
+│       └── media/
+├── requirements.txt
+└── .env
